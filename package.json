@@ -15,7 +15,6 @@
     "eslint": "eslint lib",
     "lint": "npm run prettier && npm run eslint",
     "mocha": "NODE_ENV=test mocha --bail",
-    "postinstall": "npm run esdoc",
     "prettier": "prettier -l '{lib,test}/**/*.{js,yml,yaml,json}'",
     "test": "npm run lint && npm run coverage"
   },
@@ -25,10 +24,6 @@
   },
   "devDependencies": {
     "chai": "4.1.2",
-    "esdoc": "1.1.0",
-    "esdoc-ecmascript-proposal-plugin": "1.0.0",
-    "esdoc-node": "1.0.3",
-    "esdoc-standard-plugin": "1.0.0",
     "eslint": "5.6.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-cp": "5.4.0",
